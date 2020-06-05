@@ -1,0 +1,30 @@
+order:
+  ingestionRate:
+    count: 2
+    time: 1s
+  age:
+    time: 1s
+courier:
+  arrive:
+    time: 1s
+    min: 2
+    max: 6
+shelves:
+  - name: Frozen shelf
+    temp: frozen
+    cap: 10
+    decayModifier​: 1 
+  - name: Cold shelf
+    temp: cold
+    cap: 10
+    decayModifier​: 1 
+  - name: Hot shelf
+    temp: hot
+    cap: 10
+    decayModifier​: 1 
+overflowShelf:
+  name: Overflow shelf
+  temp: any
+  cap: 15
+  decayModifier​: 2
+    
