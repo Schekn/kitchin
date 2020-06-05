@@ -7,8 +7,8 @@ order:
 courier:
   arrive:
     time: 1s
-    min: 2
-    max: 6
+    min: 34
+    max: 40
 shelves:
   - name: Frozen shelf
     temp: frozen

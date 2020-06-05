@@ -6,6 +6,10 @@ import (
 	c "delivery/config"
 )
 
+func init() {
+	c.Init("config.yml")
+}
+
 func TestReadOrders(t *testing.T) {
 	orders, err := readOrders("orders_test.json")
 	if err != nil {

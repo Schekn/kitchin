@@ -7,6 +7,10 @@ import (
 	c "delivery/config"
 )
 
+func init() {
+	c.Init("config.yml")
+}
+
 func TestKitchen(t *testing.T) {
 	t.Run("PlaceOrder", func(t *testing.T) {
 		frozenShelf := NewShelf("Frozen shelf", "frozen", 10, 1)
